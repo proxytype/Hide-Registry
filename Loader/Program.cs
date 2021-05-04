@@ -44,10 +44,10 @@ namespace Loader
             {
 
                 Console.WriteLine("Remove Key from Registry Editor");
-                Console.WriteLine("<Payload Path> regedit");
+                Console.WriteLine("<Payload Path> <Process Name>");
                 Console.WriteLine("Key is hardcoded in payload");
                 Console.WriteLine("Example:");
-                Console.WriteLine("C:\\payload.dll mmc");
+                Console.WriteLine("C:\\payload.dll regedit");
                 Console.WriteLine("By Proxytype - https://github.com/proxytype");
                 return;
 
