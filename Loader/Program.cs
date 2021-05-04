@@ -43,9 +43,9 @@ namespace Loader
             if (args.Length < 2)
             {
 
-                Console.WriteLine("Remove Events From Event Viewer By Process ID");
-                Console.WriteLine("<Payload Path> <Process Name>");
-                Console.WriteLine("Process ID is hardcoded in payload");
+                Console.WriteLine("Remove Key from Registry Editor");
+                Console.WriteLine("<Payload Path> regedit");
+                Console.WriteLine("Key is hardcoded in payload");
                 Console.WriteLine("Example:");
                 Console.WriteLine("C:\\payload.dll mmc");
                 Console.WriteLine("By Proxytype - https://github.com/proxytype");
